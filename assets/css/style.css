@@ -8,37 +8,37 @@ body {
     background-color: #d9dcd6;
 }
 
-.header { /* reduced number of fonts used that takes no effect on the origin website*/
+header { /* reduced number of fonts used that takes no effect on the origin website*/
     padding: 20px;
     font-family: 'Trebuchet MS', sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
-/*              similar to no difference collor, commented out
-.header h1 .seo {
+           
+header h1 .seo {
     color: #d9dcd6;
 } 
-*/
 
-.header div {               /*same with the css header shrink*/
+
+header nav{               
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family:  'Gill Sans MT',  sans-serif;
+    font-family:  "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 20px;
 }
-/* no changes made on website
-.header div ul {
+ 
+header nav ul {
     list-style-type: none;
 }
-*/
-.header div ul li {
+
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
